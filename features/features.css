@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.mynavbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.mynavbar-ul {
+    display: flex;
+    width: 84%;
+    justify-content: center;
+
+}
+.mynavbar-ul li {
+    margin: 0 2vw;
+}
+
+.navlist {
+    font-size: .95rem;
+    font-family:   'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.navlist #signup {
+    background: #00C48C;
+    padding: 8px 19px;
+    border-radius: 4px;
+}
+
+.navlist a:hover{
+    color: white;
+}
+
+#nav-right {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+#nav-right li {
+    margin: 0 2vw;
+    /* display: flex; */
+   
+  
+}
+
+.navbar {
+    background:rgba(0, 196, 140, 0.4);
+    color: black;
+}
+.interact-logo {
+    width: 2.15rem;
+    height: 3.27rem;
+    margin-left: 50px;
+}
+.interact {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 4.1rem;
+    letter-spacing: 0.374px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    color: rgb(22, 22, 22);
+}
+
+.active {
+    color: white;
+}
+
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  }   
+
+ .underline:after {
+     position: absolute;
+     content: '';
+     height: 4px;
+       /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+     bottom: -4px; 
+
+
+    /****** 
+    optional values below 
+    ******/
+     
+     /* center - (optional) use with adjusting width   */
+     margin: 0 auto;
+       left: 0;
+     right: 0;
+       width: 50%;
+       background: green;
+       
+       /* optional animation */
+       -o-transition:.5s;
+         -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+ }
+
+ .section_header{
+     font-size: 4rem;
+     font-weight: 600;
+     margin: 0 auto;
+     text-align: center;
+ }
+  
+
+  /* optional hover classes used with anmiation */
+   .underline:hover:after {
+       width: 80%;
+       background: green;
+ }
+
+
+/* SECTION 1 */
+
+ #testing {
+    width: 100%;
+}
+.svg1 img{
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+
+}
+.section1-text1 {
+    margin-top: 80px;
+}
+.section1-text1 h1 {
+    font-size: 6em;
+}
+.section1-para {
+    font-size: 1.7em;
+}
+.section1-button {
+    width: 70%;
+    background: #00C48C;
+    color: black;
+    font-size: 1.3em;
+    border-radius: 40px;
+}
+.section1-text1 div{
+    height: 100px;
+}
+.section1_text {
+    background:  rgba(0, 196, 140, 0.4);
+    padding: 40px 0;
+    margin: 0;
+}
+
+/* SECTION 2 */
+.section2{
+background-color: white;
+width: 100%;
+padding-top: 100px;
+padding-bottom: 80px;
+
+}
+
+.left_text{
+    width: 50%;
+  padding-top: 40px;
+  
+}
+
+.left_text h2{
+    font-size: 4rem;
+    text-align: left;
+    line-height: 4rem;
+    padding: 0px 20px 0px 0px;
+}
+
+
+.left_text p{
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.6rem;
+    padding: 10px 20px 60px 0px;
+   
+}
+.right_image{
+    width: 50%;
+}
+
+.right_image img{
+    width: 100%;
+}
+/* SECTION 3 */
+
+
+.section3{
+    background-color: white;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    
+    }
+    
+    .right_text{
+        width: 50%;
+        padding-top: 40px;
+      
+    }
+    
+    .right_text h2{
+        font-size: 4rem;
+        text-align: left;
+        line-height: 4rem;
+        padding: 0px 20px 0px 0px;
+    }
+    
+    
+    .right_text p{
+        font-size: 1.1rem;
+        text-align: left;
+        line-height: 1.6rem;
+        padding: 10px 20px 60px 0px;
+       
+    }
+    .left_image{
+        width: 50%;
+        padding: 0px 80px 0px 0px;
+    }
+    
+    .left_image img{
+        width: 100%;
+    }
+
+
+
+/* SECTION 6 */
+.section6-column {
+
+    color:white;
+ 
+}
+/* .test62 {
+    text-align: right;
+} */
+.copyright {
+    color:rgb(245, 245, 245);
+    margin: auto;
+    font-family:   'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+.despace{
+    margin-bottom: 0.3rem;
+}
+
+.copyright span a{
+text-decoration: none;
+color: #00C48C;
+font-size: 11px;
+font-weight: 500;
+margin-right: 20px;
+
+}
+.footer-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 4vh 4px;
+}
+.footer-logo-img {
+   width: 8rem;
+
+}
+.footer_section_one{
+    background-color: #E0E0E0;
+    width: 100%;
+    padding: 20px;
+    
+
+}
+
+.footer-logo span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.footer-navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footer-navbar li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 3vh;
+    text-transform: uppercase;
+    color: #00C48C;
+    font-weight: 600;
+    font-family:   'Montserrat', sans-serif;
+    font-size: .9rem;
+}
+.footer-navbar li a{
+    color: #00C48C;
+    text-decoration: none;
+}
+.icons span {
+    font-size: 1.5em;
+    margin: 0 1.3vh;
+}
+.icons span a  {
+    color: white;
+}
+.icons span a:hover {
+    color: #00C48C;
+}
+.website-footer {
+    background:  #141414;
+    padding: 30px 40px;
+}
+
+.test6 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+
+    /* NAVBAR RESPONSIVE */
+    #nav-right {
+        display: block;
+        width: 100%;
+    }
+    .navlist {
+    font-size: 20px;
+    text-align: center;
+    }
+    .mynavbar-ul li {
+        margin: 0 0;
+    }
+    #nav-right li {
+        margin: 0 0;  
+        text-align: center; 
+    }
+    .navlist #signup {
+        background: initial;
+    }
+    .navlist a:hover{
+        background: #00C48C;
+    }
+    .navlist #signup:hover {
+        background: #00C48C;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .test62 {
+        text-align: center;
+    }
+    .test6 {
+        text-align: center;
+    }
+    .footer-logo-img {
+        width: 50px;
+        height: 50px;
+    }
+}

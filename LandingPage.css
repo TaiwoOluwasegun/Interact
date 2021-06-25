@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.mynavbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.mynavbar-ul {
+    display: flex;
+    width: 84%;
+    justify-content: center;
+
+}
+.mynavbar-ul li {
+    margin: 0 2vw;
+}
+
+.navlist {
+    font-size: .95rem;
+    font-family:   'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.navlist #signup {
+    background: #00C48C;
+    padding: 8px 19px;
+    border-radius: 4px;
+}
+
+.navlist a:hover{
+    color: white;
+}
+
+#nav-right {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+#nav-right li {
+    margin: 0 2vw;
+    /* display: flex; */
+   
+  
+}
+
+.navbar {
+    background:rgba(0, 196, 140, 0.4);
+    color: black;
+}
+.interact-logo {
+    width: 2.15rem;
+    height: 3.27rem;
+    margin-left: 50px;
+}
+.interact {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 4.1rem;
+    letter-spacing: 0.374px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    color: rgb(22, 22, 22);
+}
+
+.active {
+    color: white;
+}
+
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  }   
+
+ .underline:after {
+     position: absolute;
+     content: '';
+     height: 4px;
+       /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+     bottom: -4px; 
+
+
+    /****** 
+    optional values below 
+    ******/
+     
+     /* center - (optional) use with adjusting width   */
+     margin: 0 auto;
+       left: 0;
+     right: 0;
+       width: 50%;
+       background: green;
+       
+       /* optional animation */
+       -o-transition:.5s;
+         -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+ }
+
+  /* optional hover classes used with anmiation */
+   .underline:hover:after {
+       width: 80%;
+       background: green;
+ }
+
+
+/* SECTION 1 */
+
+ #testing {
+    width: 100%;
+}
+.svg1 img{
+    height: auto;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+
+}
+.section1-text1 {
+    margin-top: 30px;
+}
+.section1-text1 h1 {
+    font-size: 4em;
+    
+}
+.section1-para {
+    font-size: 1rem;
+    width: 90%;
+    margin-top: 30px;
+    font-family:   'Montserrat', sans-serif;
+}
+.section1-button {
+    width: 40%;
+    background: #00C48C;
+    color: black;
+    font-size: 1.2em;
+    font-family:   'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.section1-text1 div{
+    height: 100px;
+}
+.section1-main {
+    background:  rgba(0, 196, 140, 0.4);
+    padding: 0;
+    margin: 0;
+}
+
+/* SECTION 2 */
+.section2-h2 {
+    text-align: center;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section2-h2 h2 {
+    font-size: 4em;
+}
+.section2-column {
+
+}
+.section2-column-cells {
+
+    width: 80%;
+    height: 440px;
+    margin: 0 auto;
+    background: #99E7D1;
+    border-radius: 1em;
+    padding-bottom: 40px;
+}
+.section2-column h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.section2-column h3 {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 700;
+}
+.section2-column p {
+    text-align: center;
+
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.test-icon {
+    text-align: center;
+
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 60px 48px;
+
+   
+}
+
+.section2 {
+    margin-bottom: 150px;
+}
+.testing {
+    width: 100%;
+}
+
+/* SECTION 3 */
+.section3-h2 {
+    text-align: center;
+    padding-top: 70px;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section3-h2 h2 {
+    font-size: 4em;
+}
+
+.section3-column {
+    height: 500px;
+    margin-top: 60px;
+}
+.test32 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+ 
+}
+.test32 p {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+
+}
+.section3-button {
+    margin-top: 13%;
+    width: 70%;
+    background: #00C48C;
+    color: black;
+    font-size: 1.3em;
+    border-radius: 40px;
+}
+.section3 {
+    background: #99e7d1;
+}
+.viewinsight {
+    padding-left: 30px;
+    width: 80%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.testing {
+    width: 100%;
+}
+
+
+
+/* SECTION 4 */
+
+.svg4 img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.section4-h2 {
+    text-align: center;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section4-h2 h2 {
+    font-size: 4em;
+}
+.test42 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-left: 60px;
+  
+}
+.test42 p {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+.testing {
+    width: 100%;
+}
+
+.feature_svgs{
+   
+    margin: 0 auto;
+  
+   display: flex;
+   justify-content: center;
+}
+
+.first_svg{
+    width: 63%;
+    padding-top: 20px;
+}
+.second_svg{
+    width: 43%;
+    padding-top:60px;
+    padding-bottom: 10px;
+}
+.third_svg{
+    width: 26%;
+    padding-top: 70px;
+}
+
+/* SECTION 5 */
+.section5-h2 {
+    text-align: center;
+   padding-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.section5-column {
+
+    padding-top: 50px;
+
+}
+.section5-column-cells {
+
+    width: 80%;
+    padding: 5px 3px 10px 3px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 1em;
+}
+.section5-column h2 {
+    text-align: center;
+    
+}
+.section5-column h3 {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 700;
+}
+.section5-column p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.para1 {
+    font-weight: 700;
+    margin-top: 60px;
+}
+.para2 {
+    color: #00C48C;
+    font-weight: 700;
+}
+.para3 {
+    font-size: 0.8em;
+}
+.test-icon5 {
+    text-align: center;
+    font-size: 1em;
+}
+.section5-h2 h2 {
+    font-size: 4em;
+}
+.test5 {
+    height: 400px;
+    background: black;
+}
+.empty {
+    height: 100px;
+}
+.section5 {
+    background:#00C48C;
+}
+.testing {
+    width: 100%;
+}
+
+
+
+/* SECTION 6 */
+.section6-column {
+
+    color:white;
+ 
+}
+/* .test62 {
+    text-align: right;
+} */
+.copyright {
+    color:rgb(245, 245, 245);
+    margin: auto;
+    font-family:   'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+.despace{
+    margin-bottom: 0.3rem;
+}
+
+.copyright span a{
+text-decoration: none;
+color: #00C48C;
+font-size: 11px;
+font-weight: 500;
+margin-right: 20px;
+
+}
+.footer-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 4vh 4px;
+}
+.footer-logo-img {
+   width: 8rem;
+
+}
+.footer_section_one{
+    background-color: #E0E0E0;
+    width: 100%;
+    padding: 20px;
+    
+
+}
+
+.footer-logo span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.footer-navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footer-navbar li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 3vh;
+    text-transform: uppercase;
+    color: #00C48C;
+    font-weight: 600;
+    font-family:   'Montserrat', sans-serif;
+    font-size: .9rem;
+}
+.footer-navbar li a{
+    color: #00C48C;
+    text-decoration: none;
+}
+.icons span {
+    font-size: 1.5em;
+    margin: 0 1.3vh;
+}
+.icons span a  {
+    color: white;
+}
+.icons span a:hover {
+    color: #00C48C;
+}
+.website-footer {
+    background:  #141414;
+    padding: 30px 40px;
+}
+
+.test6 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+
+    /* NAVBAR RESPONSIVE */
+    #nav-right {
+        display: block;
+        width: 100%;
+    }
+    .navlist {
+    font-size: 20px;
+    text-align: center;
+    }
+    .mynavbar-ul li {
+        margin: 0 0;
+    }
+    #nav-right li {
+        margin: 0 0;  
+        text-align: center; 
+    }
+    .navlist #signup {
+        background: initial;
+    }
+    .navlist a:hover{
+        background: #00C48C;
+    }
+    .navlist #signup:hover {
+        background: #00C48C;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .test62 {
+        text-align: center;
+    }
+    .test6 {
+        text-align: center;
+    }
+    .footer-logo-img {
+        width: 50px;
+        height: 50px;
+    }
+}
